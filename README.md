@@ -1,6 +1,6 @@
 1. Go to https://worpress.org download and install the latest Wordpress
 2. Clone repo into the root's directory
-3. Open `wp-content/themes/iqwik` and copy `version.php.EXAMPLE` to `version.php` into those folder
+3. Open `wp-content/themes/iqwik` and copy `version.php.EXAMPLE` to `version.php` in the same folder
 4. Go to admin panel:
 ```
     -> Appearance 
