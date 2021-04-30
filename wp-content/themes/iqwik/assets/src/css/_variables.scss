@@ -1,0 +1,61 @@
+// Deprecated
+$color: #000;
+$base-color: #ccc;
+$info-color: #4a90e2;
+$success-color: #3ed783;
+$warning-color: #fcbc51;
+$danger-color: #ea5858;
+$dark-color: #4a4a5e;
+
+$warning-color-classic: #fcbc51;
+$warning-color-dark: #fcbc51;
+
+// Fonts and measures
+$base-font-family: tahoma, arial, verdana, sans-serif;
+$base-font-family-secondary: tahoma, arial, verdana, sans-serif;
+
+$base-font-size: 12px;
+$base-font-size-small: 11px;
+$base-font-size-large: 12px;
+
+// Base variables
+$base-colors: (
+    // texts
+    textPrimary: #000,
+    textActive: #fff,
+    textSecondary: #000,
+    textThird: #b0b0b7,
+    // backgrounds
+    backgroundPrimary: #fff,
+    backgroundActive: #74bdcc,
+    backgroundActiveHover: #6fb8c7,
+    backgroundSecond: #e6eaf0,
+    backgroundThird: #e6ddd3,
+    backgroundFourth: #bcc4ca,
+    // borders
+    borderPrimary: #000,
+    borderSecondary: #fff,
+);
+
+// Tables variables
+$table: (
+    font-size: $base-font-size-small,
+    font-size-secondary: $base-font-size-small,
+    font-size-large: $base-font-size-large,
+    icon-color: map-get($base-colors, 'textThird'),
+    border-color: map-get($base-colors, 'borderSecondary'),
+    border-width: 1px,
+    // header
+    header-font-size: $base-font-size-large,
+    header-color: map-get($base-colors, 'textActive'),
+    header-background-color: map-get($base-colors, 'backgroundActive'),
+    header-hover-background-color: map-get($base-colors, 'backgroundActive'),
+    // row and cell
+    row-background-color: map-get($base-colors, 'backgroundSecond'),
+    row-odd-background-color: map-get($base-colors, 'backgroundSecond'),
+    row-hover-background-color: map-get($base-colors, 'backgroundThird'),
+    row-odd-hover-background-color: map-get($base-colors, 'backgroundThird'),
+    row-selected-color: map-get($base-colors, 'backgroundFourth'),
+    cell-color: map-get($base-colors, 'textPrimary'),
+);
+

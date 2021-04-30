@@ -1,0 +1,10 @@
+{
+    "watch": [
+        "webpack/webpack.common.js",
+        "webpack/webpack.dev.js",
+        "webpack/babel.config.js"
+    ],
+    "events": {
+        "restart": "yarn cclear"
+    }
+}
