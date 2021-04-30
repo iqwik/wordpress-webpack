@@ -23,7 +23,12 @@
 6. Optionally (for develop):
     - Set up your localhost for proxy into `webpack/proxyServer.json`, then run terminal and execute:
 ```
-yarn
-yarn dev
+yarn install
+```
+```
 yarn build
+```
+or
+```
+yarn dev
 ```
