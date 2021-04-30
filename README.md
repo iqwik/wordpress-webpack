@@ -14,7 +14,7 @@
     define( 'SMTP_PASS', '123456' );
     define( 'SMTP_HOST', 'smtp.mail.com' );
     define( 'SMTP_FROM', 'example@mail.com' );
-    define( 'SMTP_NAME', 'Novagric' );
+    define( 'SMTP_NAME', 'YourWebsite' );
     define( 'SMTP_PORT', 465 );
     define( 'SMTP_SECURE', 'ssl' );
     define( 'SMTP_AUTH', true );
